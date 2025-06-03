@@ -8,6 +8,7 @@ pip install -U huggingface_hub
 ```bash
 export HF_ENDPOINT=https://hf-mirror.com
 ```
+(写入 ~/.bashrc)
 ```bash
 huggingface-cli download --resume-download gpt2 --local-dir gpt2
 ```
