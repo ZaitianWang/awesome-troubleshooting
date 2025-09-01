@@ -14,7 +14,7 @@
 
 ## Step 3 修改用户名
 
-用第三个账户登录，命令行中输入`ren C:\Users\Alice Alice123`，然后在文件夹里给用户目录改名字。
+用第三个账户登录，~~命令行中输入`ren C:\Users\Alice Alice123`，然后~~在文件夹里给用户目录改名字, `regedit`打开注册表，在`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\ProfileList`中修改用户名。
 
 ## Step 4 登录outlook账户
 
